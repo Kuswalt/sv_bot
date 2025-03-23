@@ -17,7 +17,7 @@
         <div class="flex-1 {
             message.role === 'assistant' 
                 ? 'bg-white border border-purple-200' 
-                : 'bg-blue-500 text-white'
+                : 'bg-green-500 text-white'
         } rounded-lg px-4 py-2 shadow-sm">
             <p class="whitespace-pre-wrap break-words">
                 {message.content}
